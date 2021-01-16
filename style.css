@@ -45,6 +45,47 @@ nav {
 .menu li a.contacts {
 	margin-right: 100px;
 }
+.wrapper {
+	margin: 0 auto;
+	max-width: 1100px;
+	width: 100%;
+}
+.intro {
+	margin: 25px;
+	display: flex;
+	justify-content: flex-end;
+}
+.intro-img {
+	background: url("img/photo-1486304873000-235643847519.jpg");
+	background-repeat: no-repeat;
+	width: 945px;
+	height: 640px;
+	position: relative;
+}
+.intro .intro-text {
+	position: absolute;
+	font-size: 3.5em;
+	left: 0;
+	top: 10%;
+}
+.intro-contacts {
+	background-color: #ffcc01;
+	position: absolute;
+	right: 5.9%;
+	top: 55%;
+	display: flex;
+	justify-content: space-between;
+	padding: 1em 1em;
+}
+.intro-contacts i {
+	color: #fff;
+	margin-right: 0.25em;
+	margin-left: 0.25em;
+}
+.intro-contacts p {
+	font-size: 18px;
+	margin-right: 1em;
+}
 
 @media screen and (max-width: 765px) {
 	.toggle {
