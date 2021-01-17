@@ -96,7 +96,7 @@ nav {
 	padding-right: 40px;
 }
 .stats-text h2 {
-	margin-top: 0.8em;
+	margin-top: 0;
 	font-size: 2.5em;
 	margin-bottom: 1.5em;
 }
@@ -110,7 +110,7 @@ nav {
 	width: 12em;
 	height: 12em;
 	background-color: #f6f5f4;
-	margin: 2em 2em;
+	margin: 0.5em 2em;
 	display: flex;
 	justify-content: center;
 	align-items: center;
