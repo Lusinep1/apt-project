@@ -212,14 +212,16 @@ nav {
 		text-align: center;
 		font-size: 18px;
 		line-height: 40px;
-		width: 100%;
+		width: 400px;
 		color: #202020;
 		background: #ffd100;
 		transition: all .1s linear;
+		margin-bottom: 0;
 	}
 	.toggle:hover {
 		background: #d3a900;
 	}
+
 	#checkbox-menu:checked + label .touch li {
 		opacity: 1;
 		visibility: visible;
@@ -278,10 +280,10 @@ nav {
 		display: block;
 		font-size: 2em;
 		font-weight: 400;
-		left: 0;
-		top: 67.25%;
-		line-height: 1em;
-		padding: 0.25em 2.8em;
+		left: 180px;
+		top: 250px;
+		line-height: 6px;
+		padding: 2px 4px;
 		width: 20%;
 		border-radius: 0.25em;
 	}
@@ -324,5 +326,19 @@ nav {
 		background: #fff;
 		margin-top: 10px;
 		margin-left: 0;
+	}
+
+	.apart input[type=text] {
+		background-image: url(img/imgonline-com-ua-resize-2rkHgJnGJo.jpg);
+		background-repeat: no-repeat;
+		background-position: 10px;
+		outline: none;
+		padding-left: 10px;
+		font-size: 15px;
+		color: #919eb1;
+	}
+	/*guzei marginy poxei, or heru ertar searchi buttony Search location-ic, spes exav.*/
+	.apart input[type=text] {
+		padding: 5px;
 	}
 }
